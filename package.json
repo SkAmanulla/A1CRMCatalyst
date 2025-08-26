@@ -9,13 +9,24 @@
     "server": "cd backend && npm run dev",
     "server-mysql": "cd backend && npm run dev-mysql",
     "client": "cd frontend && npm start",
-    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "keywords": ["crm", "catalyst", "customer-growth", "salesforce", "react", "node", "mysql"],
+  "keywords": [
+    "crm",
+    "catalyst",
+    "customer-growth",
+    "salesforce",
+    "react",
+    "node",
+    "mysql"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^7.6.0"
-  }
+    "concurrently": "^7.6.0",
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://skamanulla.github.io/A1CRMCatalyst"
 }
-
