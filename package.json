@@ -2,6 +2,7 @@
   "name": "a1crmcatalyst",
   "version": "1.0.0",
   "description": "A1 CRM Catalyst - Accelerating Your Customer Growth with Smart CRM Solutions",
+  "homepage": "https://skamanulla.github.io/A1CRMCatalyst",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
@@ -27,6 +28,5 @@
   "devDependencies": {
     "concurrently": "^7.6.0",
     "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://skamanulla.github.io/A1CRMCatalyst"
+  }
 }
